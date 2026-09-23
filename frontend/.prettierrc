@@ -1,12 +1,15 @@
 {
-  "printWidth": 100,
-  "singleQuote": true,
-  "overrides": [
-    {
-      "files": "*.html",
-      "options": {
-        "parser": "angular"
-      }
-    }
-  ]
+	"$schema": "https://json.schemastore.org/prettierrc",
+	"semi": false,
+	"singleQuote": true,
+	"printWidth": 100,
+	"singleAttributePerLine": true,
+	"useTabs": true,
+	"tabWidth": 4,
+	"overrides": [
+		{
+			"files": "*.html",
+			"options": { "parser": "angular" }
+		}
+	]
 }
