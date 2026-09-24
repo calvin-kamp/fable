@@ -1,13 +1,13 @@
-package com.fable.fable_backend;
+package com.fable.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FableBackendApplication {
+public class BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FableBackendApplication.class, args);
+		SpringApplication.run(BackendApplication.class, args);
 	}
 
 }

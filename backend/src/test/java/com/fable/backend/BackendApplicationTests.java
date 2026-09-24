@@ -1,10 +1,10 @@
-package com.fable.fable_backend;
+package com.fable.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FableBackendApplicationTests {
+class BackendApplicationTests {
 
 	@Test
 	void contextLoads() {
