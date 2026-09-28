@@ -1,6 +1,9 @@
+name: fable-backend
+
 services:
-  postgres:
+  db:
     image: 'postgres:17'
+    container_name: fable-db
     environment:
       POSTGRES_DB: ${POSTGRES_DB}
       POSTGRES_USER: ${POSTGRES_USER}
